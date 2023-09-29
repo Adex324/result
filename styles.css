@@ -1,0 +1,232 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: hsl(0, 0%, 100%)   ;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      width: 39%;
+        margin: 150px 500px;
+        border: 0.3px solid;
+        background-color: hsl(241, 100%, 89%);
+        border-radius: 20px;
+        border-style: hidden;
+        background-color:  hsl(0, 0%, 100%);
+       border: 0.2px;
+       box-shadow: 10px 20px  15px hsl(221, 100%, 96%) ;
+    }
+    .left-side{
+        border-radius: 20px;
+        border: solid 0.2px;
+        border-style: hidden;
+        background-color: hsl(241, 81%, 54%);
+        overflow: hidden;
+        width: 300px;
+        height: 425px;
+    }
+    .right-side{
+       
+        
+    }
+    .left-text{
+        margin: 30px 30px;
+        justify-content: space-between;
+        text-align: center;
+        
+            color: hsl(241, 100%, 89%);
+            font-family: 'Hanken Grotesk', sans-serif;
+          
+    }
+    .right-text{
+        margin: 30px 30px;
+        justify-content: space-between;
+        text-align: left;
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+
+    .last{
+      width: 95%;
+      justify-content: space-between;
+  
+    }
+    button{
+        margin: 30px 30px;
+   
+    }
+  h3.title1{
+    margin-bottom: 30px;
+  }
+  .scores{
+    border:  inset 0.2px;
+border-radius: 50%;
+border: hidden;
+height: 130px;
+width: 130px;
+display: inline-block;
+text-align: center;
+background-color:hsla(241, 85%, 27%, 0.568);
+box-shadow:  inset 10px -30px 30px hsl(241, 81%, 54%);
+margin-bottom: 30px;
+
+  }
+  h3.title2{
+    margin-bottom: 20px;
+  }
+  h2.score1{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 55px;
+    font-weight: 800;
+    color:  hsl(0, 0%, 100%);
+    margin-top: 10px;
+  }
+  h4.score2{
+    color: hsl(240, 15%, 61%);
+  }
+  h3.bottom{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .space-1, .space-2 , .space-3 , .space-4{
+    border: inset 0.2px;
+    border-radius: 10px;
+    height: 45px;
+    width: 230px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  align-items: baseline;
+  display: flex;
+  border: hidden;
+
+    
+  }
+  .space-1{
+    background-color: hsl(0, 100%, 98%);
+    
+  }
+  .space-2{
+    background-color:hsl(40, 100%, 98%);
+  }
+  .space-3{
+    background-color:  hsl(166, 100%, 97%);
+  }
+  .space-4{
+    background-color: hsl(234, 100%, 98%);
+  }
+  p.right-top{
+
+    text-align: center;
+    align-items: baseline;
+    display: inline-block;
+  
+
+  }
+  .smallspace{
+    display: inline;
+    float: left;
+    
+    
+  }
+  .rtx1{
+    color: hsl(0, 100%, 67%);
+    
+    
+  }
+  .rtx2{
+    color:hsl(39, 100%, 56%);
+  }
+  .rtx3{
+    color:  hsl(166, 100%, 37%);
+  }
+  .rtx4{
+    color:  hsl(234, 85%, 45%);
+  }
+  
+  h4.right-scoress{
+   text-align: right;
+   margin-left: 70px;
+   
+
+  }
+  h4.min{
+    margin-left: 75px;
+  }
+  h4.man{
+    margin-left: 90px;
+  }
+  img.smallpic{
+    width: 20px;
+    
+  
+    margin-right: 5px;
+   margin-top: 10px;
+   
+   
+  }
+  .last-button{
+    display: flex;
+    margin-top: 20px;
+    font-size:large;
+    padding: 12px 80px;
+    align-items: baseline;
+    border-radius: 40px;
+    background-color:  hsl(224, 30%, 27%);
+    color: white;
+    border-style: hidden;
+    cursor: pointer;
+  }
+  .last-button:hover{
+    background-color: hsl(241, 81%, 54%);
+    
+  }
+  .verysmall{
+    margin-left: 10px;
+    color: hsl(241, 100%, 89%);
+  }
+  @media (max-width: 900px) {
+    .grid{
+      grid-template-columns: 1fr;
+      align-items: center;
+      margin: -10px 400px;
+      box-shadow: none;
+
+    }
+    .last{
+      width: 100%;
+      justify-content: space-between;
+  
+    }
+    .last-button{
+      padding: 18px 115px;
+    }
+    .space-1, .space-2 , .space-3 , .space-4{
+      height: 45px;
+    width: 300px;
+
+    }
+      .left-side{
+        border-radius: 20px;
+        border: solid 0.2px;
+        border-style: hidden;
+        background-color: hsl(241, 81%, 54%);
+        overflow: hidden;
+        width: 340px;
+        height: 350px;
+        margin-left: 10px;
+    }
+    .space-1, .space-2 , .space-3 , .space-4{
+     
+    margin-bottom: 30px;
+    margin-top: 30px;
+    align-items: baseline;
+   }
+  
+  }
